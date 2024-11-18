@@ -4,6 +4,7 @@ ruby '3.2.1'
 gem 'sinatra', '>= 2.0.2'
 gem 'sinatra-flash', '0.3.0'
 gem 'puma'
+gem 'rackup'
 
 group :development, :test do
   gem 'cucumber', '2.0.0'
@@ -14,7 +15,6 @@ group :development, :test do
   gem 'rspec-autotest', '1.0.0'
 
   gem 'rack-test', '0.6.3'
-  gem 'rackup'
   gem 'rack_session_access', '0.1.1'
 
   gem 'byebug', '>= 5.0.0'
